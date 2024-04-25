@@ -1,0 +1,25 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+Welcome to your new app.
+
+@code
+{
+    private void Funcion()
+    {
+        Padre padre = new Padre();
+
+        HijaA hijaA = new HijaA();
+
+        padre.Nombre = "Fernando";
+        padre.Apellido = "Gekko";
+
+        hijaA.Nombre = "Camila";
+        hijaA.Apellido = "Salgado";
+        hijaA.Carnet = "202300809";
+    }
+    
+}
