@@ -8,18 +8,20 @@ Welcome to your new app.
 
 @code
 {
-    private void Funcion()
-    {
-        Padre padre = new Padre();
+	private void Funcion()
+	{
+		//Instanciar objeto de la clase Padre
+		Padre padre = new Padre();
+		//Instanciar un objeto de la clase HijaA
+		HijaA hijaA = new HijaA();
+		Tio tio = new Tio();
+		Primos primos = new Primos();
 
-        HijaA hijaA = new HijaA();
+		padre.nombre = "Waldemar";
+		padre.apellido = "Ovalle";
 
-        padre.Nombre = "Fernando";
-        padre.Apellido = "Gekko";
-
-        hijaA.Nombre = "Camila";
-        hijaA.Apellido = "Salgado";
-        hijaA.Carnet = "202300809";
-    }
-    
+		hijaA.nombre = "Ashley";
+		hijaA.apellido = "Jones";
+		hijaA.carne = "202308099";
+	}
 }

@@ -1,9 +1,9 @@
 ﻿namespace EjemploHerencia
 {
-    public class Tio : Padre
-    {
-        public string titulo {  get; set; }
+	public class Tio : Padre
+	{
+		public string titulo { get; set; }
 
-        public string num_Colegiado { get; set; }
-    }
+		public int noColegiado { get; set; }
+	}
 }
